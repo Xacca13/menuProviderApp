@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/chat"
+        android:title="Chat"
+        android:icon="@drawable/chat"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/alarm"
+        android:title="Alarm"
+        android:icon="@drawable/alarm"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/cold"
+        android:title="Cold"
+        android:icon="@drawable/cold"
+        app:showAsAction="ifRoom"
+        />
+
+</menu>
